@@ -50,12 +50,12 @@ android {
 
 dependencies {
 
-    implementation("io.ktor:ktor-client-core:3.1.0")
-    implementation("io.ktor:ktor-client-okhttp:3.1.0")
-    implementation("io.ktor:ktor-client-content-negotiation:3.1.0")
-    implementation("io.ktor:ktor-serialization-kotlinx-json:3.1.0")
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.okhttp)
+    implementation(libs.ktor.client.content.negotiation)
+    implementation(libs.ktor.serialization.kotlinx.json)
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.0")
+    implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
