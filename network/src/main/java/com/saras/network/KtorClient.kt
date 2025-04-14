@@ -1,5 +1,6 @@
 package com.saras.network
 
+import com.saras.network.model.Result
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.OkHttp
@@ -12,7 +13,6 @@ import io.ktor.serialization.kotlinx.json.json
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.json.Json
-import com.saras.network.model.Result
 
 class KtorClient {
 
